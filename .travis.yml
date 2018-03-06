@@ -8,4 +8,5 @@ python:
   - "3.5"
   - "3.6"
 script:
+  - python rpn.py
   - unittest test_rpn.py
