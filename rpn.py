@@ -12,6 +12,8 @@ operators = {
 }
 
 def calculate(myarg):
+    if myarg == "":
+        exit(0)
     stack = list()
     for token in myarg.split():
         try:

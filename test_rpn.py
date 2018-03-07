@@ -19,7 +19,7 @@ class TestBasics(unittest.TestCase):
         result = rpn.calculate("6 3 /")
         self.assertEqual(2, result)
         print("divide test result: ", result)
-    def test_carat(self):
-        result = rpn.calculate("3 2 ^")
-        self.assertEqual(9, result)
-        print("carat test result: ", result)	
+    #def test_carat(self):
+        #result = rpn.calculate("3 2 ^")
+        #self.assertEqual(9, result)
+        #print("carat test result: ", result)	
