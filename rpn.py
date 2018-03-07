@@ -29,7 +29,7 @@ def calculate(myarg):
     return stack.pop()
 
 def main():
-    print("main is happening")
+    cprint("Nice", 'red', 'on_white')
     while True:
         result = calculate(input("rpn calc> "))
         if result < 0:
