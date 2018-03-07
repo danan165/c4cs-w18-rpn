@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import operator
-from termcolor import colored
+from termcolor import colored, cprint
 
 operators = {
     '+': operator.add,
@@ -34,10 +34,10 @@ def main():
         result = calculate(input("rpn calc> "))
         if result < 0:
             print("Result: ")
-            print colored(result, "red")
+            cprint(resut, 'red', 'on_white')
         else:       
             print("Result: ")
-            print colored(result, "green")
+            cprint(result, 'green', 'on_white')
 
 if __name__ == '__main__':
     main()
