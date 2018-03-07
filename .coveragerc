@@ -1,6 +1,6 @@
 [run]
 branch = True
-source=travis-ci
+source=python
 
 [report]
 exclude_lines =
