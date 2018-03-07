@@ -30,6 +30,7 @@ def calculate(myarg):
 
 def main():
     cprint("Nice", 'red', 'on_white')
+    cprint("Cool, dude", 'blue', 'on_yellow')
     while True:
         result = calculate(input("rpn calc> "))
         if result < 0:
