@@ -34,10 +34,10 @@ def main():
         result = calculate(input("rpn calc> "))
         if result < 0:
             print("Result: ")
-            print colored(result, 'red')
+            print colored(result, "red")
         else:       
             print("Result: ")
-            print colored(result, 'green')
+            print colored(result, "green")
 
 if __name__ == '__main__':
     main()
