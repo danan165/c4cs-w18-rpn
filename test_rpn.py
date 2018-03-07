@@ -1,6 +1,7 @@
 import unittest
 import termcolor
 import rpn
+import codecov
 
 class TestBasics(unittest.TestCase):
     def test_add(self):
