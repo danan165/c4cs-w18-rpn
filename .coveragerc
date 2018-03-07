@@ -1,6 +1,6 @@
 [run]
 branch = True
-source = travis-ci
+source=travis-ci
 
 [report]
 exclude_lines =
