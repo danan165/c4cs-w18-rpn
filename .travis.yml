@@ -8,5 +8,7 @@ install:
 script:
   - py.test
   - coverage run test_rpn.py
+  - coverage report -m
 after_success:
   - codecov
+
