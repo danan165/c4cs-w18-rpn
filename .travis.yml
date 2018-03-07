@@ -1,13 +1,11 @@
 language: python
 python:
   - "3.5"
-install:
+before_install:
   - pip install termcolor
   - pip install codecov
-  - pip install coverage
 script:
   - py.test
   - coverage run test_rpn.py
 after_success:
   - codecov
-
